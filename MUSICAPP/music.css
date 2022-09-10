@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+header{
+    background-color: blue;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(red, green, blue, alpha);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 ;
+    color: white;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+
+}
+.logo{
+    font-size: 32px;
+    font-weight: 600;
+}
+nav ul li:hover {
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in-out;
+}
+nav ul li {
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+.dinkar-section{
+    background-image: url("mp3.png");
+    color:white;
+    height: 1000vh;
+    display: grid;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 0;
+    
+   
+}
+.dinkar-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.music-section{
+    background-color:purple;
+    padding: 50px;
+}
+.music-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
